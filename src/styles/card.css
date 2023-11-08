@@ -1,0 +1,40 @@
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: var(--bg_secondary);
+    border-radius: 10px;
+}
+
+.icon {
+    font-size: 40px;
+}
+
+.details h4,
+p {
+    margin: 0;
+}
+
+.details h4 {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+
+.details p {
+    font-size: 12px;
+    opacity: 80%;
+    margin-top: 1px;
+}
+
+.map {
+    background-color: #1ba16e;
+    font-size: 26px;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

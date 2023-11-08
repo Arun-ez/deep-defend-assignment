@@ -1,0 +1,46 @@
+.security_score {
+    background-color: var(--bg_primary);
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.score_box {
+    height: calc(100% - 20px);
+    background-color: var(--bg_secondary);
+    padding: 0px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score {
+    background-color: #f97520;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scenarios h2 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.scenarios>div {
+    margin-top: 20px;
+}
+
+.scenarios>div>div {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.scenarios>div>div p {
+    margin: 0;
+}

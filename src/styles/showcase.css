@@ -1,0 +1,12 @@
+.top {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    text-wrap: nowrap;
+}
+
+.main_content {
+    background-color: var(--bg_primary);
+    height: 200px;
+    padding: 20px;
+}

@@ -1,0 +1,44 @@
+.choose {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.scenario_grid {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.high_risk {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-wrap: nowrap;
+    margin-top: 12px;
+}
+
+.high_risk>div:nth-child(1) {
+    background: #7f0d28;
+    color: black;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.high_risk>div:nth-child(3) {
+    border: 1px solid#fff;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+@media (0px <=width <=1450px) {
+    .scenario_grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
