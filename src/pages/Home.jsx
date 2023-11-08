@@ -27,6 +27,7 @@ const Home = () => {
             </div>
 
             <div className='scenario_grid'>
+
                 <Showcase heading={'Scenarios at high risk'}>
                     <div>
                         {high_risks.map((risk, idx) => (
@@ -46,9 +47,62 @@ const Home = () => {
                     </div>
                 </Showcase>
 
-                <Showcase heading={'Critical assets at risk'} />
-                <Showcase heading={'Top choke points'} />
-                <Showcase heading={'Top impacting attack techniques'} />
+                <Showcase heading={'Critical assets at risk'}>
+                    <div>
+                        {high_risks.map((risk, idx) => (
+                            <div className='high_risk' key={idx}>
+                                <div>
+                                    <h3> F </h3>
+                                </div>
+
+                                <p> {risk} </p>
+
+                                <div>
+                                    Take Action
+                                </div>
+                            </div>
+                        ))}
+
+                    </div>
+                </Showcase>
+
+                <Showcase heading={'Top choke points'}>
+                    <div>
+                        {high_risks.map((risk, idx) => (
+                            <div className='high_risk' key={idx}>
+                                <div>
+                                    <h3> F </h3>
+                                </div>
+
+                                <p> {risk} </p>
+
+                                <div>
+                                    Take Action
+                                </div>
+                            </div>
+                        ))}
+
+                    </div>
+                </Showcase>
+
+                <Showcase heading={'Top impacting attack techniques'}>
+                    <div>
+                        {high_risks.map((risk, idx) => (
+                            <div className='high_risk' key={idx}>
+                                <div>
+                                    <h3> F </h3>
+                                </div>
+
+                                <p> {risk} </p>
+
+                                <div>
+                                    Take Action
+                                </div>
+                            </div>
+                        ))}
+
+                    </div>
+                </Showcase>
             </div>
 
 
